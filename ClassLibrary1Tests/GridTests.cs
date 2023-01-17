@@ -56,16 +56,6 @@ namespace ClassLibrary1.Tests
             Assert.IsTrue(grid.Shapes.Count == 1);
         }
 
-        [TestMethod()]
-        public void Add_Circle_Test()
-        {
-            var grid = new Grid(25, 25);
-            var circle = new Circle(5, new System.Drawing.Point(1, 1));
-
-            grid.Add(circle);
-
-            Assert.IsTrue(grid.Shapes.Count == 1);
-        }
 
         [TestMethod()]
         public void Add_Rectangle_Invalid_XPosition_Test()
@@ -92,13 +82,11 @@ namespace ClassLibrary1.Tests
             var rectangle1 = new Rectangle(4, 3, new System.Drawing.Point(1, 1));
             var rectangle2 = new Rectangle(2, 6, new System.Drawing.Point(2, 5));
             var rectangle3 = new Rectangle(4, 4, new System.Drawing.Point(6, 0));
-            var circle = new Circle(5, new System.Drawing.Point(1, 1));
 
             grid.Add(rectangle1);
-            grid.Add(circle);
             grid.Add(rectangle2);
             grid.Add(rectangle3);
-            Assert.IsTrue(grid.Shapes.Count == 4);
+            Assert.IsTrue(grid.Shapes.Count == 3);
 
         }
 

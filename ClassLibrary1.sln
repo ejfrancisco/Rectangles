@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridLibrary", "ClassLibrary1\GridLibrary.csproj", "{D8C4E6A1-9C1E-4914-A932-4F69F500BDA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridLibraryTests", "ClassLibrary1Tests\GridLibraryTests.csproj", "{53B156D0-C813-4AD2-91D1-CEEE56A00446}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8C4E6A1-9C1E-4914-A932-4F69F500BDA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C4E6A1-9C1E-4914-A932-4F69F500BDA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C4E6A1-9C1E-4914-A932-4F69F500BDA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C4E6A1-9C1E-4914-A932-4F69F500BDA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B156D0-C813-4AD2-91D1-CEEE56A00446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B156D0-C813-4AD2-91D1-CEEE56A00446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B156D0-C813-4AD2-91D1-CEEE56A00446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B156D0-C813-4AD2-91D1-CEEE56A00446}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {036CF5D9-EADB-4EFD-9070-1954B19C976A}
+	EndGlobalSection
+EndGlobal
